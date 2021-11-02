@@ -22,3 +22,16 @@
 *schema.sqlを作成する代わりに, hibernate
 
 ```
+
+
+```
+11/2 
+
+・aplicationpropertiesについて
+    spring.jpa.hibernate.ddl-auto=create-dropに変更
+
+・リポジトリクラス、サービスクラスの作成
+
+＊パスがmrs.mrsになっている部分を書き直す必要がありそう
+
+```
