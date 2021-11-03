@@ -3,7 +3,6 @@ package mrs.mrs.domain.service.room;
 import java.time.LocalDate;
 import java.util.List;
 
-import org.springframework.stereotype.Service;
 
 import mrs.domain.model.ReservableRoom;
 import mrs.mrs.domain.repository.room.ReservableRoomRepository;
@@ -14,8 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-
-
 public class RoomService {
 
     @Autowired
